@@ -1,0 +1,32 @@
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 0.5rem;
+}
+.footer a:hover {
+  color: #ff7043;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.socialIcons .link {
+  margin: 0 0.6rem;
+ 
+}
+.socialIcons .link .img{
+  border-radius: 8px;
+}
